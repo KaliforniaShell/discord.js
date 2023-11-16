@@ -3295,12 +3295,18 @@ export interface MappedComponentTypes {
   [ComponentType.TextInput]: TextInputComponent;
 }
 
-export interface ChannelCreateOptions {
+/** @internal */
+export interface CreateChannelOptions {
   allowFromUnknownGuild?: boolean;
 }
 
 /** @internal */
-export function createChannel(client: Client<true>, data: APIChannel, options?: ChannelCreateOptions): Channel;
+export function createChannel(
+  client: Client<true>,
+  data: APIChannel,
+  guild?: Guild,
+  extras?: CreateChannelOptions,
+): Channel;
 
 export function createComponent<Type extends keyof MappedComponentTypes>(
   data: APIMessageComponent & { type: Type },
@@ -5975,6 +5981,7 @@ export interface LifetimeFilterOptions<Key, Value> {
   lifetime?: number;
 }
 
+/** @internal */
 export interface MakeErrorOptions {
   name: string;
   message: string;
