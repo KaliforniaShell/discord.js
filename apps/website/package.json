@@ -56,7 +56,7 @@
 		"@vercel/analytics": "^1.1.1",
 		"@vercel/edge-config": "^0.4.1",
 		"@vercel/og": "^0.5.20",
-		"@vercel/postgres": "^0.5.1",
+		"@vercel/postgres": "^0.10.0",
 		"ariakit": "2.0.0-next.44",
 		"bright": "^0.8.4",
 		"class-variance-authority": "^0.7.0",
