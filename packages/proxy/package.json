@@ -67,7 +67,7 @@
 		"@discordjs/rest": "workspace:^",
 		"@discordjs/util": "workspace:^",
 		"tslib": "^2.6.2",
-		"undici": "5.28.5"
+
 	},
 	"devDependencies": {
 		"@discordjs/api-extractor": "workspace:^",
