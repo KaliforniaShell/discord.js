@@ -30,7 +30,7 @@
 		}
 	},
 	"dependencies": {
-		"@microsoft/tsdoc": "0.14.2",
+		"@microsoft/tsdoc": "0.15.1",
 		"@microsoft/tsdoc-config": "0.16.2",
 		"@rushstack/node-core-library": "3.61.0"
 	},
